@@ -1,0 +1,25 @@
+HADES STOCK PRO APK 자동 생성판 - 초보자용
+
+이 패키지는 GitHub Actions 워크플로가 이미 들어 있습니다.
+따라서 GitHub에서 YAML 파일을 직접 만들거나 수정하지 마세요.
+
+가장 쉬운 순서:
+1. 이 ZIP 압축을 풉니다.
+2. 압축을 푼 폴더 안으로 들어갑니다.
+3. app, build.gradle, settings.gradle, .github 폴더가 보이는지 확인합니다.
+4. GitHub 새 저장소를 만듭니다.
+5. 압축 푼 폴더 안의 모든 파일과 폴더를 GitHub에 업로드합니다.
+   중요: 폴더 자체가 아니라 폴더 안의 내용물을 올리세요.
+6. Commit changes를 누릅니다.
+7. GitHub 저장소 상단 Actions를 누릅니다.
+8. Build HADES STOCK PRO APK 실행이 자동으로 시작됩니다.
+9. 초록색 체크가 뜨면 실행 항목을 클릭합니다.
+10. 맨 아래 Artifacts에서 HADES-STOCK-PRO-app-debug-apk를 다운로드합니다.
+11. 다운로드한 압축을 풀면 app-debug.apk가 나옵니다.
+12. 휴대폰으로 옮겨 설치합니다.
+
+주의:
+- GitHub에서 main.yml을 새로 만들지 마세요. 이미 들어 있습니다.
+- upload-artifact v4 적용 완료 상태입니다.
+- gradlew가 없어도 GitHub Actions에서 Gradle 8.7을 자동 설치합니다.
+- APK는 GitHub Actions에서 생성됩니다. ZIP 안에 APK가 직접 들어있는 것은 아닙니다.
